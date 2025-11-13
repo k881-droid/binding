@@ -1,10 +1,17 @@
 :root{
     --bg-color: papayawhip;
     --fg-color: tomato;
+    font-size: 2rem;
+	line-height: 120%;
+	--spacing: 2rem;
 }
 
 body {
-    padding:2.5rem;
+    padding: var(--spacing);
     background-color: var(--bg-color);
     color: var(--fg-color);
+}
+
+body p {
+    margin-block: var(--spacing);
 }
