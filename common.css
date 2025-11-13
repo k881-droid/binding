@@ -1,0 +1,10 @@
+:root{
+    --bg-color: papayawhip;
+    --fg-color: tomato;
+}
+
+body {
+    padding:2.5rem;
+    background-color: var(--bg-color);
+    color: var(--fgcolor);
+}
