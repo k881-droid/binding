@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Saint';
+    font-family: "Saint";
     src: url("binding/Saint-Regular.woff2") format('woff2'),
-        url("binidng/Saint-Regular.woff") format('woff');
+        url("bindig/Saint-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
