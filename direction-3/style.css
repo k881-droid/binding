@@ -21,7 +21,7 @@ body {
     padding: 0;
     background-color: #09111F;
 }
-
+/* 
 ol {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ li {
     justify-content: center;
     align-items: center;
     gap:2rem;
-}
+} */
 
 
 
@@ -214,7 +214,7 @@ article p {
   flex: 1;
   min-height: 80px;
 
-  font-size: 4rem; 
+  font-size: 1.6rem; 
   line-height: 1.4;
   word-wrap: break-word; 
   overflow-wrap: break-word;
