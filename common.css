@@ -8,5 +8,6 @@
 }
 
 body {
-    padding: var(--spacing)
+    padding: var(--spacing);
+    font-size: 1.5rem;
 }
