@@ -7,15 +7,17 @@
     font-display: swap;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
 
-h1{
+h1 {
     padding-block-start: calc(var(--spacing)*1.5);
     margin-block: calc(var(--spacing)*2);
-    line-height: 100%;
-    font-family: "Jersey 10", sans-serif;
+    line-height: 80%;
+    font-family: "Road Rage", sans-serif;
     font-weight: 400;
-    font-size: 600%;
-    text-align: center;
-    transform: skew(30deg);
+    font-size:650%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    font-style: normal;
+    color: white;
 }
