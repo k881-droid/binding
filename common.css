@@ -11,3 +11,7 @@ body {
     padding: var(--spacing);
     background-color: var(--bg-color);
 }
+
+body p{
+    margin-block: var(--spacing);
+}
