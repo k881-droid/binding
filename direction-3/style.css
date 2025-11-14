@@ -140,8 +140,6 @@ article p {
 }
 
 
-
-
 .link {
     color:rgb(194, 170, 197);
 }
@@ -161,3 +159,73 @@ article p {
     font-family: 'rubik glitch', cursive;
     color: #3E3335;
 }
+
+.single-box {
+  position: relative;       
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-left {
+  top: 16px;
+  left: 16px;
+  font-weight: bold;
+}
+
+/* Bottom-right text */
+.bottom-right {
+  bottom: 16px;
+  right: 16px;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.box {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-height: 80px;
+
+  font-size: 4rem; 
+  line-height: 1.4;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  overflow: hidden; 
+}
+
+.row-a .left-box { flex: 2; }
+.row-a .column-a { flex: 1; }
+
+.row-b .left-box { flex: 1; }
+.row-b .right-box { flex: 2; }
+
+.row-c .column-a { flex: 1; }
+.row-c .right-box { flex: 2; }
