@@ -10,14 +10,14 @@
 nav ol {
     display: flex;
     flex-direction: row;
-    /* justify-content: start; */
+    justify-content: start;
 }
 
 ol li{
     margin-inline: var(--spacing);
 }
 body {
-    padding: var(--spacing);
+    padding: calc(var(--spacing)/1.5);
     background-color: var(--bg-color);
 }
 
