@@ -10,6 +10,11 @@
 nav ol {
     display: flex;
     flex-direction: row;
+    /* justify-content: start; */
+}
+
+ol li{
+    margin-inline: var(--spacing);
 }
 body {
     padding: var(--spacing);
