@@ -21,3 +21,59 @@ body {
     padding: 0;
     background-color: #09111F;
 }
+
+ol {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: -2rem;
+    font-size: 1.6rem;
+    
+}
+
+li {
+    color: #ffffff; 
+    border-radius: 1rem;
+    display: inline-flex;
+    padding: 0.3rem 0.7rem;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+
+
+section:nth-child(1) { 
+    color:#A0BBC1; 
+
+    padding: 4rem;
+    padding-bottom: 1rem;}
+    
+
+section:nth-child(2) { 
+    color:#A0BBC1; 
+    background-color: #09111F;
+    padding: 4rem;
+    padding-bottom: 1rem;}
+    
+.title{
+    position: relative;
+    padding: 0rem;
+    place-items: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5rem;
+    margin-right: 100px;
+
+}
+
+.block {
+    font-family: 'Herr Von Muellerhoff';
+    font-size: 10rem;
+    line-height: 1;
+    text-align: left;
+    margin-left: -1rem;
+    color: #2ce7ac;
+
+}
