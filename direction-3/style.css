@@ -77,3 +77,87 @@ section:nth-child(2) {
     color: #2ce7ac;
 
 }
+
+.script{
+    font-family: 'Klaristha', cursive;
+    font-size:5rem;
+    color: #A0BBC1;
+    /* display: inline-block; */
+
+    
+
+} 
+
+.author{
+    display: inline-block;
+    color: #A0BBC1;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-left: 30rem;    
+    margin-bottom: 2rem;
+    margin-top: -9srem;
+
+}
+
+
+blockquote {
+    inline-size: 90%;
+    font-size: 2rem;
+    color: #3d3d3d;
+    text-align: left; 
+    margin: 3rem auto;  
+    margin-top: 7rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+    background-color: orange;
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    padding-left: 2rem;
+    
+}
+
+
+
+article {
+  font-weight: 200;     
+  margin: 0 auto;        
+  text-align: left;   
+  padding: 0rem;   
+  padding-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+article p {
+    padding-top: 2rem;
+    font-size: 2rem;
+
+  margin: 1.2rem 0;
+  line-height: 1.9;
+  margin-top: 2rem;
+}
+.body-text{
+    margin-top:1rem;
+}
+
+
+
+
+.link {
+    color:rgb(194, 170, 197);
+}
+
+.link:hover {
+    color: #EC7040;
+}
+
+.rub{
+    font-family: 'klaristha', cursive;
+    color: #2ce7ac;
+    font-size: 3rem;
+
+}
+
+.rib{
+    font-family: 'rubik glitch', cursive;
+    color: #3E3335;
+}
