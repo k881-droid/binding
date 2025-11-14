@@ -1,18 +1,17 @@
 @font-face {
     font-family: 'Saint';
-    src: url('Saint-Regular.woff2') format('woff2'),
-        url('Saint-Regular.woff') format('woff');
+    src: url("binding/Saint-Regular.woff2") format('woff2'),
+        url("binidng/Saint-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 h1{
-    padding: calc(var(--spacing)*1.5);
-    margin-block-start: calc(var(--spacing)*1.5);
-    line-height: 110%;
+    padding-block-start: calc(var(--spacing)*1.5);
+    margin-block: calc(var(--spacing)*2);
+    line-height: 100%;
     font-family: 'Saint';
-    font-size: 500%;
+    font-size: 600%;
     text-align: center;
-
 }
