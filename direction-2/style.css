@@ -24,12 +24,19 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  min-height: 60vh;
   background-image: url("../image.jpeg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  position: relative;
+  position:
 }
 
 body::before {

@@ -17,7 +17,9 @@ h1 {
     font-weight: 400;
     font-size:650%;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-color: black;
     font-style: normal;
-    color: white;
+    color: rgb(41, 207, 41);
+    text-align: center;
 }
+
