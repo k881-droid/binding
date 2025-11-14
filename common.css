@@ -9,4 +9,6 @@
 
 body {
     padding: var(--spacing);
+    font-size: 100%;
+    line-height: 100%;
 }
