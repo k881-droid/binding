@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Herr+Von+Muellerhoff&display=swap');
+
+@font-face {
+    font-family: 'Klaristha';
+    src: url("fonts/klaristha/Klaristha.woff2") format("woff2");
+
+}
+
+
+:root {
+    font-size: 130%;
+}
+
+
+
+body {
+    font-family: 'baskerviella', serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0;
+    background-color: #09111F;
+}
