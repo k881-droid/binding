@@ -22,6 +22,17 @@ h1{ font-family: "Terminal Grotesque Open";
     text-align: center;
     font-size: 500%;
     line-height: calc(var(--spacing)*4);
-    padding: calc(var(--spacing)*3)
-    
+    padding: calc(var(--spacing)*3);
 }
+
+<style>
+  svg {
+    position: absolute;
+  }
+</style>
+
+<svg>
+  <defs>
+    <filter id="distort"></filter>
+  </defs>
+</svg>
