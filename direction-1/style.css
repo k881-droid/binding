@@ -16,15 +16,18 @@
     font-display: swap;
 }
 
+body{
+    background-color: #1e1e1e;
+}
+
 h1{ font-family: "Terminal Grotesque Open";
-    font-weight: normal;
+    font-weight: 10;
     font-style: normal;
     text-align: center;
     font-size: 500%;
     line-height: calc(var(--spacing)*4);
     padding: calc(var(--spacing)*3);
+    filter: url(#distort);
+    color: rgb(28, 238, 28)
 }
 
-h1{
-   filter: url(#distort);
-}
