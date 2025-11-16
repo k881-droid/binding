@@ -53,7 +53,7 @@
     grid-area: d;     
     background-color: #1e1e1e;
     color: white;
-    font-size: 35%;
+    font-size: 30%;
     writing-mode: horizontal-tb;
     padding: calc(var(--spacing)/2);
     align-items: center;
