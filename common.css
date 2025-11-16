@@ -50,7 +50,7 @@
     background-color: #ff6fb2
 }
 
-.navbar-1 ol li:nth-child(4) {
+.navbar-1 ol :nth-child(4) {
     grid-area: d;     
     background-color: #1e1e1e;
     color: white;
@@ -63,4 +63,7 @@
 
 /* Found writing mode trick from mdn because I wanted to learn how to do that for this style and found it here: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes */
 
-
+.navbar-1 ol li:not(:last-child):hover{
+    background-color: #1e1e1e;
+    color: white;
+}
