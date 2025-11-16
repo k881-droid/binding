@@ -9,13 +9,14 @@
 
 .navbar-1{
     background-color: #1e1e1e;
-    block-size: 100vh;
+    height: 100%;
 }
 
 .navbar-1 ol {
     display: grid;
+    height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 4fr 0.5fr;
     grid-template-areas:
 		"a b c"
         "d d d";
@@ -54,11 +55,11 @@
     color: white;
     font-size: 35%;
     writing-mode: horizontal-tb;
-    block-size: 20%;
     padding: calc(var(--spacing)/2);
     align-items: center;
     justify-content: center;
 }
 
+/* Found writing mode trick from mdn because I wanted to learn how to do that for this style and found it here: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes */
 
 
