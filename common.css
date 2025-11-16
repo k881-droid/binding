@@ -4,6 +4,7 @@
     font-size: 2rem;
     font-family: "Instrument Sans", sans-serif;
 	line-height: 2rem;
+    letter-spacing: -0.01rem;
 	--spacing: 1rem;
 }
 
@@ -22,7 +23,6 @@
         "d d d";
     font-size: 200%;
     font-weight: 500;
-    letter-spacing: -0.01rem;
     text-transform: uppercase;
     color: #000000;
 }
@@ -64,6 +64,32 @@
 /* Found writing mode trick from mdn because I wanted to learn how to do that for this style and found it here: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes */
 
 .navbar-1 ol li:not(:last-child):hover{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.navbar-2{
+    min-block-size: 2rem;
+    background-color: #ff6fb2;
+}
+
+.navbar-2 ol {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    min-inline-size: 3rem;
+    background-color: #ff6fb2;
+    text-transform: uppercase;
+    font-weight: 500;
+    flex-grow: 1;
+}
+
+.navbar-2 ol li{
+   padding: calc(var(--spacing)/2);
+   text-align: center;
+}
+
+.navbar-2 ol li:hover{
     background-color: #1e1e1e;
     color: white;
 }
