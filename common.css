@@ -20,7 +20,7 @@
     grid-template-areas:
 		"a b c"
         "d d d";
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 500;
     letter-spacing: -0.01rem;
     text-transform: uppercase;
