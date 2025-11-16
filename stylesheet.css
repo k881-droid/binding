@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Saint';
-    src: url('Saint-Regular.woff2') format('woff2'),
-        url('Saint-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
