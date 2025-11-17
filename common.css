@@ -8,6 +8,12 @@
 	--spacing: 1rem;
 }
 
+body{
+    margin: 0rem;
+    padding: 0rem;
+    width: 100vh;
+}
+
 .navbar-1{
     background-color: #1e1e1e;
     height: 100vh;
