@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
 
 @font-face {
     font-family: 'Terminal Grotesque Open';
@@ -26,6 +27,23 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'DESTRA';
+    src: url('DESTRA-Bold.woff2') format('woff2'),
+        url('DESTRA-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Destra';
+    src: url('GPDestra-Light.woff2') format('woff2'),
+        url('GPDestra-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* h1{ font-family: "Terminal Grotesque Open";
     font-style: normal;
@@ -77,18 +95,23 @@ h2 p:first-child{
     background-color: #1e1e1e;
     color: #1e1e1e;
     -webkit-text-stroke-color: rgb(183, 255, 1);
-    -webkit-text-stroke-width: 0.08rem;
+    -webkit-text-stroke-width: 0.09rem;
     text-transform: uppercase;
-    margin-inline: 1rem;
+    padding-inline: 1rem;
+    padding-block: 0.4rem;
 }
 
 h2 p:nth-child(2){
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 100%;
+    font-family: "Syne Extra";
+    font-size: 200%;
     text-align: right;
     background-color: rgb(183, 255, 1);
     color: #1e1e1e;
-    margin-inline: 1rem;
+    padding-inline: 1rem;
+    padding-block: 0.4rem;
+    text-transform: uppercase;
+    /* -webkit-text-stroke-color: #1e1e1e;
+    -webkit-text-stroke-width: 0.09rem; */
 }
 
 h2 p{
@@ -103,6 +126,9 @@ h2{
 p {
    /* padding-block-end: var(--spacing); */
    padding: var(--spacing);
+   font-family: "Alike Angular", serif;
+   font-weight: 400;
+   font-style: normal;
 }
 
 section{
