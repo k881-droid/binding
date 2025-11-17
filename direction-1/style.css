@@ -123,14 +123,16 @@ h2{
     background-color: #1e1e1e;
 }
 
-p {
+section p {
    /* padding-block-end: var(--spacing); */
    padding: var(--spacing);
-   font-family: "Alike Angular", serif;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 400;
    font-style: normal;
+   filter: url(#distort-2);
 }
 
 section{
     background-color: white;
+    padding-block: var(--spacing);
 }
