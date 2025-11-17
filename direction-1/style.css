@@ -18,6 +18,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Syne Extra';
+    src: url('Syne-Extra.woff2') format('woff2'),
+        url('Syne-Extra.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* h1{ font-family: "Terminal Grotesque Open";
     font-style: normal;
     font-weight: 600;
@@ -62,10 +71,28 @@ h1{ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robot
     -webkit-text-stroke-width: 0.1rem; */
 }
 
-h2{
-    padding-block: calc(var(--spacing)*2);
-    padding-inline: var(--spacing);
-    background-color: yellow;
+h2 p:first-child{
+    font-family: 'Syne Extra';
+    font-size: 280%;
+    line-height: 3rem;
+    background-color: #1e1e1e;
+    color: #1e1e1e;
+    -webkit-text-stroke-color: rgb(183, 255, 1);
+    -webkit-text-stroke-width: 0.08rem;
+    text-transform: uppercase;
+}
+
+h2 p:nth-child(2){
+    font-family: 'Syne Extra';
+    font-size: 250%;
+    line-height: 3rem;
+    background-color: #1e1e1e;
+    color: rgb(183, 255, 1);
+    -webkit-text-stroke-color: rgb(183, 255, 1);
+    -webkit-text-stroke-width: 0.1rem;
+}
+h2 p{
+    padding: 0;
 }
 
 p {
