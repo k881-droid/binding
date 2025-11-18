@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
 
 @font-face {
     font-family: 'DT World Tour';
@@ -127,23 +128,32 @@ h2 p{
     max-width: 100%;
     line-height: 3rem;
     padding: 0.4rem 1rem;
-} 
+} */
 
-h2{
-    background-color: #1e1e1e;
+/* section {
+   font-family: 'DT World Tour';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 110%;
 } */
 
 section p{
    max-inline-size: 35ch;
    text-wrap: wrap;
-   font-size: 110%;
+   font-family: 'DT World Tour';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 121%;
    padding-block-end: calc(var(--spacing)*2.6);
    padding-inline: var(--spacing);
 }
 
-section {
-   font-family: 'DT World Tour';
-   font-weight: normal;
-   font-style: normal;
-   font-size: 110%;
+blockquote p{
+  font-family: "Lacquer", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180%;
+  text-align: center;
+  margin-inline: var(--spacing);
 }
+
