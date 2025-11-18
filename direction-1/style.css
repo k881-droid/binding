@@ -115,7 +115,7 @@ header:hover{
 } */
 
 h1{
-    font-family: 'PaperJohnnyEins-Regular';
+    font-family: 'PaperJohnnyEinhalb-Regular';
     font-style: normal;
     font-weight: normal;
     font-style: normal;
@@ -127,6 +127,17 @@ h1{
     /* filter: url(#distort); */
 }
 
+.d, .e, .s, .i, .g, .n{
+  display: inline-block;       
+}
+
+.d, .s, .g, .n{
+  transform: rotate(-9deg)    
+}
+
+.g, .n{
+  transform: rotate(9deg)    
+}
 /* h2 p:first-child{
     font-family: 'Syne Extra';
     font-size: 100%;
@@ -214,3 +225,4 @@ blockquote p{
 }
 
 /* Again, I want to save my svg/image use to trying to incorporate as many 'hand-drawn' elements as possible via code - learnt this from: https://codepen.io/tijsvl/pen/QWqzwPV */
+
