@@ -75,7 +75,6 @@ body{
 }
 
 .navbar-2{
-    min-block-size: 2rem;
     background-color: #ff6fb2;
 }
 
@@ -83,11 +82,9 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    min-inline-size: 3rem;
     background-color: #ff6fb2;
     text-transform: uppercase;
     font-weight: 500;
-    flex-grow: 1;
 }
 
 .navbar-2 ol li{
