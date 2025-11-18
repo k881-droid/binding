@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root{
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "Instrument Sans", sans-serif;
 	line-height: 2rem;
     letter-spacing: -0.01rem;
 	--spacing: 1rem;
-}
+} 
 
 body{
     margin: 0rem;
     padding: 0rem;
-    width: 100vh;
 }
 
 .navbar-1{
@@ -39,6 +38,7 @@ body{
     padding: var(--spacing);
     align-items: center;
     justify-content: center;
+    font-size: 200%;
 }
 
 .navbar-1 ol li:first-child {
@@ -60,7 +60,7 @@ body{
     grid-area: d;     
     background-color: #1e1e1e;
     color: white;
-    font-size: 60%;
+    font-size: 120%;
     writing-mode: horizontal-tb;
     align-items: center;
     justify-content: center;
@@ -98,4 +98,4 @@ body{
 .navbar-2 ol li:hover{
     background-color: #1e1e1e;
     color: white;
-}
+} 
