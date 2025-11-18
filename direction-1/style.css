@@ -54,11 +54,43 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'PaperJohnnyZwei-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PaperJohnnyZwei-Regular'), url('PaperJohnnyZwei-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PaperJohnnyEins-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PaperJohnnyEins-Regular'), url('PaperJohnnyEins-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PaperJohnnyEinhalb-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PaperJohnnyEinhalb-Regular'), url('PaperJohnnyEinhalb-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PaperJohnnyEineinhalb-Regul';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PaperJohnnyEineinhalb-Regul'), url('PaperJohnnyEineinhalb-Regul.woff') format('woff');
+}
+@font-face {
+    font-family: 'PaperJohnnyDrei-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PaperJohnnyDrei-Regular'), url('PaperJohnnyDrei-Regular.woff') format('woff');
+}
+
 html {
   min-height: 100%;
   background: 
     repeating-radial-gradient(#9d9b9b 0 0.00001%,#0000 0 0.0001%) 
 }
+
 
 /* Learnt how to generate noise for background via code as there is limited use of images and svgs: https://css-tricks.com/making-static-noise-from-a-weird-css-gradient-bug/ */
 
@@ -66,10 +98,7 @@ html {
     letter-spacing: 0.01rem;
 }
 
- /* h1{ font-family: "Terminal Grotesque Open";
-}
-
-header {
+/* header {
     background-color: rgb(43, 255, 43);
     padding: var(--spacing);
 } 
@@ -83,22 +112,22 @@ header {
 header:hover{
     background-image: url(green\ noise.gif);
     background-size: cover;
-}
+} */
 
-h1{ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1{
+    font-family: 'PaperJohnnyEins-Regular';
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
+    font-style: normal;
     text-align: center;
-    font-size: 300%;
-    line-height: calc(var(--spacing)*4.2);
+    font-size: 350%;
+    line-height: 3rem;
     padding: calc(var(--spacing)*3);
-    filter: url(#distort);
-    color: rgb(31, 31, 31);
-    -webkit-text-stroke-color: #1e1e1e;
-    -webkit-text-stroke-width: 0.1rem;
+    background-color: white;
+    /* filter: url(#distort); */
 }
 
-h2 p:first-child{
+/* h2 p:first-child{
     font-family: 'Syne Extra';
     font-size: 100%;
     background-color: #1e1e1e;
@@ -128,7 +157,7 @@ h2 p{
     max-width: 100%;
     line-height: 3rem;
     padding: 0.4rem 1rem;
-} */
+}  */
 
 /* section {
    font-family: 'DT World Tour';
@@ -155,5 +184,33 @@ blockquote p{
   font-size: 180%;
   text-align: center;
   margin-inline: var(--spacing);
+  color: red;
+  /* transform: rotate(20deg); */
 }
 
+.skew {
+  position: relative;
+}
+
+.skew::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background:red;
+  width: 100%;
+  height: .2em;
+  transform: skewY(-3deg);
+  z-index: -1;
+}
+.skew::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background:red;
+  width: 100%;
+  height: .2em;
+  transform: skewY(-5deg) translateX(-95%) translateY(-100%);
+  z-index: -1;
+}
+
+/* Again, I want to save my svg/image use to trying to incorporate as many 'hand-drawn' elements as possible via code - learnt this from: https://codepen.io/tijsvl/pen/QWqzwPV */

@@ -74,17 +74,18 @@ body{
     color: white;
 }
 
-.navbar-2{
+/* .navbar-2{
     background-color: #ff6fb2;
-}
+} */
 
 .navbar-2 ol {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ff6fb2;
+    background-color: #000000;
     text-transform: uppercase;
     font-weight: 500;
+    color: white;
 }
 
 .navbar-2 ol li{
@@ -93,6 +94,6 @@ body{
 }
 
 .navbar-2 ol li:hover{
-    background-color: #1e1e1e;
+    text-decoration: underline;
     color: white;
 } 
