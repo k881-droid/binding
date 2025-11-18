@@ -127,10 +127,10 @@ h2{
 
 section p{
    max-inline-size: 35ch;
-   text-wrap: balance;
+   text-wrap: wrap;
    letter-spacing: 150%;
    font-size: 110%;
-   padding-block: calc(var(--spacing)*1.5);
+   padding-block-end: calc(var(--spacing)*2.6);
    padding-inline: var(--spacing);
 }
 
