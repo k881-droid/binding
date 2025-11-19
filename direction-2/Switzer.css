@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Regular.woff2') format('woff2'),
+        url('SwitzerVariable-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Regular.woff2') format('woff2'),
+        url('SwitzerVariable-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Italic.woff2') format('woff2'),
+        url('SwitzerVariable-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Regular.woff2') format('woff2'),
+        url('SwitzerVariable-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Italic.woff2') format('woff2'),
+        url('SwitzerVariable-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Switzer Variable';
+    src: url('SwitzerVariable-Italic.woff2') format('woff2'),
+        url('SwitzerVariable-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
