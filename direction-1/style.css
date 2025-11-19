@@ -101,12 +101,12 @@
 
 body {
   min-height: 100vh;
-  background-image: repeating-conic-gradient(
-    #000 0 0.00001%,
-    #0000 0 0.0005%
+  background-image: repeating-radial-gradient(
+    #000 0 0.0002%,
+    #0000 0 0.0009%
   );
   background-position: 50% 50%;
-  background-size: 300% 300%;  /* 🔑 this makes the “noise” appear */
+  background-size: 200% 200%; 
 }
 
 
