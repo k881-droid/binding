@@ -98,13 +98,33 @@
     letter-spacing: 0.01rem;
 }
 
-body{
+body {
+  position: relative;
+  background-color: rgb(252, 249, 233); /* or whatever your base color is */
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: url("noise.jpg");
+  background-size: cover;      /* or 'contain' if you prefer */
+  background-repeat: repeat;   /* in case it's a small tile */
+
+  opacity: 0.3; /* <<< CONTROL YOUR NOISE LEVEL HERE */
+}
+
+/* body{
     min-height: 100vh;
     min-width: 100vw;
     background: 
     repeating-conic-gradient(#000000 0 0.00001%,#0000 0 0.0005%)
     50%;
-}
+} */
 
 /* Learnt how to generate noise for background via code as there is limited use of images and svgs: https://css-tricks.com/making-static-noise-from-a-weird-css-gradient-bug/ */
 
