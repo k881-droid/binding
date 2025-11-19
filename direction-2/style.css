@@ -16,6 +16,24 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Ortica Linear';
+    src: url('OrticaLinear-Regular.woff2') format('woff2'),
+        url('OrticaLinear-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ortica Linear';
+    src: url('OrticaLinear-Light.woff2') format('woff2'),
+        url('OrticaLinear-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     width: 100vw;
 }
@@ -31,8 +49,22 @@ h1{
     line-height: 3.5rem;
 }
 
-.d{
-    font-family: 'Apfel Grotezk';
-    font-size: 110%;
-    font-weight: 
+.D, .S, .N, .R, .W, .U, .C{
+    font-family: 'Ortica Linear';
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 p{
+    line-height: 3.4rem;
+}
+
+div {
+    border-bottom: 0.06rem solid black;
+    margin-top: 0.5rem;
+}
+
+h2, section{
+    padding: calc(var(--spacing)/1.5);
 }
