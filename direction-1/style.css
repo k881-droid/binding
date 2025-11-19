@@ -192,12 +192,12 @@ h1{
   position: relative;
   z-index: 1;        
   font-family: 'Pinkend';
-  font-size: 300%;
+  font-size: 298%;
   font-weight: 500;
   line-height: 3rem;
   color: white;
   background-color: black;
-  margin-inline: calc(var(--spacing)*5.3);
+  margin-inline: calc(var(--spacing)*4.9);
 }
 
 h2 p:nth-child(3){
