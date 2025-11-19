@@ -111,7 +111,6 @@
 
 body{
     width: 100vw;
-    font-family: "Switzer Variable";
 }
 
 header{
@@ -151,24 +150,22 @@ div {
     line-height: 6rem;
     margin-inline: -1rem;
     box-sizing: border-box;
-    padding-block: 3rem;
+    padding-block: 8rem;
 }
 
 .author-name p:nth-child(2){
     text-align: right;
 }
 
-article section{
-    padding: calc(var(--spacing)/1.4);
-}
 
 h2:first-child{
     border-top: 0.06rem solid black;
-    padding-block-start: 2rem;
+    padding-block-start: calc(var(--spacing)*4);
     margin-inline: 0.7rem;
+    padding-block-end: calc(var(--spacing)*2)
 }
 
-h2{
+h2 {
     padding-block-start: calc(var(--spacing)/1.5);
     padding-inline: calc(var(--spacing)/1.5);
 }
@@ -177,22 +174,52 @@ h2 p{
    font-family: 'Ortica Linear Light';
    font-weight: 200;
    font-style: normal;
-   font-size:340%;
+   font-size: 340%;
    line-height: 3.5rem;
-   text-align: right;
    text-transform: uppercase;
 }
 
 h2 p:nth-child(2){
     /* transform: skewX(-20deg); */
-    text-align: left;
     font-family: 'avarabolditalic';
     white-space: nowrap;
+    overflow: hidden;
     font-size: 250%;
     text-transform: none;
-
 }
 
 /* Wanted the second line on one single line, learnt the no wrap trick from mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/white-space */
 
+article h2{
+    padding-block: calc(var(--spacing)*3);
+}
+
+article h2 p:nth-child(3){
+    padding-block: calc(var(--spacing)*3);
+}
+
+article section{
+    padding: calc(var(--spacing)/1);
+    font-family: "Switzer Variable";
+}
+
+article section p{
+    font-size: 115%;
+    text-wrap: wrap;
+}
+
+.copy-paste, .good-taste{
+    text-align: left;
+}
+
+.open-to-all, .base-style, .for-new-empires, .or-gatekeeping{
+    text-align: right;
+}
+
+blockquote{
+    font-family: "Ortica Linear";
+    padding-block: calc(var(--spacing)*4);
+    padding-inline: calc(var(--spacing)*3);
+    font-size: 150%;
+}
 
