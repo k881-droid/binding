@@ -36,7 +36,7 @@
     font-display: swap;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'DESTRA';
     src: url('DESTRA-Bold.woff2') format('woff2'),
         url('DESTRA-Bold.woff') format('woff');
@@ -52,7 +52,7 @@
     font-weight: 300;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 @font-face {
     font-family: 'PaperJohnnyZwei-Regular';
