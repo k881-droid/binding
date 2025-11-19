@@ -241,6 +241,7 @@ blockquote p{
   transform: skewY(-3deg);
   z-index: -1;
 }
+
 .skew::after {
   content: '';
   position: absolute;
@@ -252,6 +253,20 @@ blockquote p{
   z-index: -1;
 }
 
+.bold{
+    color: red;
+}
+
+.circle{
+    border-radius: 35%;
+	border: 0.2rem solid red;
+	text-align: center;
+}
+
+.highlight{
+    background-color: red;
+    color: white
+}
 /* Again, I want to save my svg/image use to trying to incorporate as many 'hand-drawn' elements as possible via code - learnt this from: https://codepen.io/tijsvl/pen/QWqzwPV */
 
  /* h2 p:first-child{
