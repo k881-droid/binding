@@ -98,6 +98,17 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'avarabolditalic';
+    src: url('Avara-BoldItalic.eot');
+    src: url('Avara-BoldItalic.eot') format('embedded-opentype'),
+         url('Avara-BoldItalic.woff2') format('woff2'),
+         url('Avara-BoldItalic.woff') format('woff'),
+         url('Avara-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     width: 100vw;
     font-family: "Switzer Variable";
@@ -167,11 +178,15 @@ h2 p{
 }
 
 h2 p:nth-child(2){
-    transform: skewX(-20deg);
+    /* transform: skewX(-20deg); */
     text-align: left;
+    font-family: 'avarabolditalic';
     white-space: nowrap;
+    font-size: 250%;
+    text-transform: none;
+
 }
 
-
+/* Wanted the second line on one single line, learnt the no wrap trick from mdn: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/white-space */
 
 
