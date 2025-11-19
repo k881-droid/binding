@@ -122,7 +122,7 @@ header{
 h1{
     font-family: 'Saint';
     font-display: swap;
-    font-size: 350%;
+    font-size: 340%;
     line-height: 3.5rem;
 }
 
@@ -177,7 +177,7 @@ h2 p{
    font-family: 'Ortica Linear Light';
    font-weight: 200;
    font-style: normal;
-   font-size: 350%;
+   font-size:340%;
    line-height: 3.5rem;
    text-align: right;
    text-transform: uppercase;
