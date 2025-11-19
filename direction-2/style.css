@@ -139,7 +139,7 @@ h1 p{
 
 div {
     border-bottom: 0.06rem solid black;
-    margin-top: 0.5rem;
+    margin-block-start: 0.5rem;
 }
 
 .author-name{
@@ -159,7 +159,13 @@ div {
 }
 
 article section{
-    padding: calc(var(--spacing)/1.5);
+    padding: calc(var(--spacing)/1.4);
+}
+
+h2:first-child{
+    border-top: 0.06rem solid black;
+    padding-block-start: 2rem;
+    margin-inline: 0.7rem;
 }
 
 h2{
