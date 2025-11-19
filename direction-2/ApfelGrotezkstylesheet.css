@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Apfel Grotezk Satt';
+    src: url('ApfelGrotezk-Satt.woff2') format('woff2'),
+        url('ApfelGrotezk-Satt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Brukt';
+    src: url('ApfelGrotezk-Brukt.woff2') format('woff2'),
+        url('ApfelGrotezk-Brukt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Fett.woff2') format('woff2'),
+        url('ApfelGrotezk-Fett.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+        url('ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Satt';
+    src: url('ApfelGrotezk-Satt.woff2') format('woff2'),
+        url('ApfelGrotezk-Satt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Mittel';
+    src: url('ApfelGrotezk-Mittel.woff2') format('woff2'),
+        url('ApfelGrotezk-Mittel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+        url('ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Brukt';
+    src: url('ApfelGrotezk-Brukt.woff2') format('woff2'),
+        url('ApfelGrotezk-Brukt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Fett.woff2') format('woff2'),
+        url('ApfelGrotezk-Fett.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Brukt';
+    src: url('ApfelGrotezk-Brukt.woff2') format('woff2'),
+        url('ApfelGrotezk-Brukt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Fett.woff2') format('woff2'),
+        url('ApfelGrotezk-Fett.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Mittel';
+    src: url('ApfelGrotezk-Mittel.woff2') format('woff2'),
+        url('ApfelGrotezk-Mittel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Mittel';
+    src: url('ApfelGrotezk-Mittel.woff2') format('woff2'),
+        url('ApfelGrotezk-Mittel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+        url('ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apfel Grotezk Satt';
+    src: url('ApfelGrotezk-Satt.woff2') format('woff2'),
+        url('ApfelGrotezk-Satt.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

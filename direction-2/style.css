@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+        url('ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saint';
+    src: url('Saint-Regular.woff2') format('woff2'),
+        url('Saint-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    width: 100vw;
+}
+
+header{
+    padding: calc(var(--spacing)/1.5);
+}
+
+h1{
+    font-family: 'Saint';
+    font-display: swap;
+    font-size: 350%;
+    line-height: 3.5rem;
+}
+
+.d{
+    font-family: 'Apfel Grotezk';
+    font-size: 110%;
+    font-weight: 
+}
