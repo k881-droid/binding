@@ -109,6 +109,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-LightItalic.woff2') format('woff2'),
+        url('Fraunces9ptSoft-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
 body{
     width: 100vw;
 }
@@ -217,9 +226,16 @@ article section p{
 }
 
 blockquote{
-    font-family: "Ortica Linear";
-    padding-block: calc(var(--spacing)*4);
-    padding-inline: calc(var(--spacing)*3);
-    font-size: 150%;
+    font-family: 'Fraunces 9pt Soft';
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+    font-size: 200%;
+    line-height: 2rem;
+    box-sizing: border-box;
+    background-color:yellow;
+    position: relative;
+    overflow: hidden; 
+
 }
 

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Italic.woff2') format('woff2'),
+        url('Fraunces9pt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-SemiBoldItalic.woff2') format('woff2'),
+        url('Fraunces9pt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Italic.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-LightItalic.woff2') format('woff2'),
+        url('Fraunces9pt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-ThinItalic.woff2') format('woff2'),
+        url('Fraunces9pt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-BoldItalic.woff2') format('woff2'),
+        url('Fraunces9ptSoft-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-LightItalic.woff2') format('woff2'),
+        url('Fraunces9ptSoft-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Light.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
