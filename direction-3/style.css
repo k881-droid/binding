@@ -35,16 +35,59 @@
   font-style: italic;
 }
 
+/*
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('Satoshi-Variable.woff2') format('woff2'),
+       url('Satoshi-Variable.woff') format('woff'),
+       url('Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('Satoshi-VariableItalic.woff2') format('woff2'),
+       url('Satoshi-VariableItalic.woff') format('woff'),
+       url('Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+html{
+    background-color:rgb(255, 137, 206)
+}
 article section p{
-    font-weight: 500;
+    font-family: 'Satoshi-Variable';
+    font-weight: 450;
     letter-spacing: -0.01rem;
     line-height: 1.5rem;
     font-size: 110%;
     padding: var(--spacing);
     text-wrap: wrap;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 132);
+    background-color: rgb(97, 95, 223);
     transform: rotate(8deg);
+    color: white;
 }
 
 header{
@@ -57,7 +100,7 @@ header{
 
 
 #burst-12 {
-    background: rgb(255, 70, 153);
+    background: rgb(255, 47, 141);
     width: 14rem;
     height: 14rem;
     position: relative;
@@ -73,7 +116,7 @@ header{
     left: 0;
     height: 14rem;
     width: 14rem;
-    background: rgb(255, 70, 153);
+    background: rgb(255, 47, 141);
     }
 #burst-12:before {
     transform: rotate(30deg);
@@ -88,18 +131,21 @@ header{
     position: relative; 
     background: none;   
     padding-inline: 1rem;
-    font-size: 120%;   
+    font-family: 'Satoshi-Variable';
+    font-size: 130%;   
     line-height: 1.5em;
-    color: white;      
+    color: rgb(255, 255, 255);      
     z-index: 2;
     text-align: center;
     padding-block: 1.5rem;
+    text-transform: uppercase;
 }
 
 article section > p {
     margin-block: 2.5rem; /* increase spacing */
     margin-inline: 2rem;
 }
+
 
 
 
