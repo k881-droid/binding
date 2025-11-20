@@ -209,3 +209,19 @@ h1 li:nth-child(4),
 h1 li:nth-child(6)  {
     transform: rotate(3deg);
 }
+
+.circle-1 {
+  width: 15rem;
+  height: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 150%;
+  color: #fff;
+  text-align: center;
+  background: #000;
+  margin-inline-start:1rem;
+  transform: rotate(-10deg);
+  margin-block: 2.5rem;
+}
+
+/* Wanted to recreate the 'sticker' feel in this so found out how to add circles with text from: https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle */
