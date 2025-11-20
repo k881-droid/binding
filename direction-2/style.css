@@ -237,5 +237,5 @@ blockquote{
 }
 
 .open-to-all{
-    white-space: nowrap;
+    margin-inline-start: 1.3rem;
 }
