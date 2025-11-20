@@ -35,7 +35,7 @@
   font-style: italic;
 }
 
-section p{
+article section p{
     font-weight: 500;
     letter-spacing: -0.01rem;
     line-height: 1.5rem;
@@ -48,20 +48,46 @@ section p{
 }
 
 header{
-    background-color: rgb(20, 244, 20);
+ background-color: green;
 }
 
 .rotate-opposite{
     transform: rotate(-8deg);
 }
-
-section p {
-    margin-block: 2rem; 
+div{
+    background-color: orange;
 }
 
-section blockquote{
-    background-color: greenyellow;
-}
+#burst-12 {
+    background: red;
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+    text-align: center;
+    margin-inline: auto; 
+    margin-block: 5rem;
+    }
+#burst-12:before,
+#burst-12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12rem;
+    width: 12rem;
+    background: red;
+    }
+#burst-12:before {
+    transform: rotate(30deg);
+    }
+#burst-12:after {
+    transform: rotate(60deg);
+    }
+
+/* Wanted to style my blockquote in a starburst, learnt how to make it from here: https://css-tricks.com/the-shapes-of-css/ */
+  
+
+
 
 
 
