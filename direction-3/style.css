@@ -57,7 +57,7 @@ header{
 
 
 #burst-12 {
-    background: red;
+    background: rgb(255, 70, 153);
     width: 14rem;
     height: 14rem;
     position: relative;
@@ -73,7 +73,7 @@ header{
     left: 0;
     height: 14rem;
     width: 14rem;
-    background: red;
+    background: rgb(255, 70, 153);
     }
 #burst-12:before {
     transform: rotate(30deg);
