@@ -158,8 +158,8 @@ h1 ul{
     align-items: stretch;
     text-align: center;
     margin: auto;
-    padding-block: 2rem;
-    gap: 1rem;
+    padding-block: 3rem;
+    gap: 0.5rem;
 }
 
 h1 li {
@@ -167,11 +167,45 @@ h1 li {
 	/* border-block: 0.1rem solid firebrick;
 	border-inline: 0.1rem solid firebrick; */
 	padding: 0.5rem;
-    flex-grow: 1;
     font-size: 200%;
     font-weight: 600;
+    
 }
 
+header h1 li:first-child{
+    background-color: #23900d;
+}
 
+header h1 li:nth-child(2){
+    background-color: #ee2525;
+}
 
+header h1 li:nth-child(3){
+    background-color: rgb(97, 95, 223);
+}
 
+header h1 li:nth-child(4){
+    background-color: rgb(235, 229, 31);
+}
+
+header h1 li:nth-child(5){
+    background-color: #ff10a3;
+}
+
+header h1 li:nth-child(6){
+    background-color: #000000;
+    color: white;
+    font-size: 120%;
+}
+
+h1 li:first-child,
+h1 li:nth-child(3),
+h1 li:nth-child(5) {
+    transform: rotate(-3deg);
+}
+
+h1 li:nth-child(2),
+h1 li:nth-child(4),
+h1 li:nth-child(6)  {
+    transform: rotate(3deg);
+}
