@@ -230,12 +230,13 @@ blockquote{
     font-weight: 300;
     font-style: italic;
     font-display: swap;
-    font-size: 200%;
-    line-height: 2rem;
+    font-size: 150%;
+    line-height: 2.5rem;
     box-sizing: border-box;
-    background-color:yellow;
-    position: relative;
-    overflow: hidden; 
-
+    /* background-color:yellow; */
+    padding-block: calc(var(--spacing)*3);
+    word-spacing: 2rem;
+    text-align: center;
 }
+
 
