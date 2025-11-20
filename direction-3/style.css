@@ -76,6 +76,7 @@
 html{
     background-color:rgb(255, 137, 206)
 }
+
 article section p{
     font-family: 'Satoshi-Variable';
     font-weight: 450;
@@ -88,10 +89,6 @@ article section p{
     background-color: rgb(97, 95, 223);
     transform: rotate(8deg);
     color: white;
-}
-
-header{
- background-color: green;
 }
 
 .rotate-opposite{
@@ -154,7 +151,26 @@ article section > p {
     background-color: #df0d8e;
 }
 
+h1 ul{
+    display: flex;         
+    flex-direction: column;
+    max-inline-size: 20rem;
+    align-items: stretch;
+    text-align: center;
+    margin: auto;
+    padding-block: 2rem;
+    gap: 1rem;
+}
 
+h1 li {
+	background-color: tomato;
+	/* border-block: 0.1rem solid firebrick;
+	border-inline: 0.1rem solid firebrick; */
+	padding: 0.5rem;
+    flex-grow: 1;
+    font-size: 200%;
+    font-weight: 600;
+}
 
 
 
