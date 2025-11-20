@@ -203,10 +203,6 @@ article h2{
     padding-block: calc(var(--spacing)*3);
 }
 
-article h2 p:nth-child(3){
-    padding-block: calc(var(--spacing)*3);
-}
-
 article section{
     padding: calc(var(--spacing)/1);
     font-family: "Switzer Variable";
@@ -215,6 +211,7 @@ article section{
 article section p{
     font-size: 115%;
     text-wrap: wrap;
+    margin-block-start: var(--spacing);
 }
 
 .copy-paste, .good-taste{
