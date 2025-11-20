@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 body{
-    background-color: black;
+  
 }
 section p {
     font-family: "VT323", monospace;
@@ -10,7 +10,7 @@ section p {
     font-size: 160%;
     letter-spacing: -0.02rem;
     line-height: 1.5rem;
-    color: white;
+    color: black;
     margin-block: calc(var(--spacing)*2);
 }
 
