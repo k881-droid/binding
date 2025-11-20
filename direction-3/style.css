@@ -36,13 +36,34 @@
 }
 
 section p{
-    font-family: 'JetBrainsMono-Variable';
     font-weight: 500;
     letter-spacing: -0.01rem;
     line-height: 1.5rem;
     font-size: 110%;
     padding: var(--spacing);
     text-wrap: wrap;
-
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 132);
+    transform: rotate(8deg);
 }
+
+header{
+    background-color: rgb(20, 244, 20);
+}
+
+.rotate-opposite{
+    transform: rotate(-8deg);
+}
+
+section p {
+    margin-block: 2rem; 
+}
+
+section blockquote{
+    background-color: greenyellow;
+}
+
+
+
+
 
