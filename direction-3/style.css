@@ -100,7 +100,7 @@ header{
 
 
 #burst-12 {
-    background: rgb(255, 47, 141);
+    background: rgb(255, 249, 79);
     width: 14rem;
     height: 14rem;
     position: relative;
@@ -116,7 +116,7 @@ header{
     left: 0;
     height: 14rem;
     width: 14rem;
-    background: rgb(255, 47, 141);
+    background: rgb(255, 249, 79);
     }
 #burst-12:before {
     transform: rotate(30deg);
@@ -132,9 +132,9 @@ header{
     background: none;   
     padding-inline: 1rem;
     font-family: 'Satoshi-Variable';
-    font-size: 130%;   
+    font-size: 130%;  
     line-height: 1.5em;
-    color: rgb(255, 255, 255);      
+    color: rgb(2, 2, 2);      
     z-index: 2;
     text-align: center;
     padding-block: 1.5rem;
@@ -146,6 +146,13 @@ article section > p {
     margin-inline: 2rem;
 }
 
+.green{
+    background-color: #23900d;
+}
+
+.dark-pink{
+    background-color: #df0d8e;
+}
 
 
 
