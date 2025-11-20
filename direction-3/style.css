@@ -12,5 +12,6 @@ section p {
     line-height: 1.5rem;
     color: black;
     margin-block: calc(var(--spacing)*2);
+    padding-inline: calc(var(--spacing));
 }
 
