@@ -183,7 +183,7 @@ h2 p{
    font-family: 'Ortica Linear Light';
    font-weight: 200;
    font-style: normal;
-   font-size: 340%;
+   font-size: 320%;
    line-height: 3.5rem;
    text-transform: uppercase;
 }
@@ -236,11 +236,3 @@ blockquote{
     text-align: center;
 }
 
-.open-to-all{
-    margin-inline-start: 1.3rem;
-}
-
-.who-subscribe{
-    margin-inline-end: 1.4rem;
-
-}
