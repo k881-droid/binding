@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Terminal Grotesque Open';
+    src: url('TerminalGrotesque-Open.woff2') format('woff2'),
+        url('TerminalGrotesque-Open.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url('Terminal-Grotesque.woff2') format('woff2'),
+        url('Terminal-Grotesque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url('Terminal-Grotesque.woff2') format('woff2'),
+        url('Terminal-Grotesque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url('Terminal-Grotesque.woff2') format('woff2'),
+        url('Terminal-Grotesque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url('Terminal-Grotesque.woff2') format('woff2'),
+        url('Terminal-Grotesque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
