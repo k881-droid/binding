@@ -1,78 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
-
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 400.0;
-*
-* available axes:
-'wght' (range from 100.0 to 800.0
-*/
-@font-face {
-  font-family: 'JetBrainsMono-Variable';
-  src: url('JetBrainsMono-Variable.woff2') format('woff2'),
-       url('JetBrainsMono-Variable.woff') format('woff'),
-       url('JetBrainsMono-Variable.ttf') format('truetype');
-  font-weight: 100 800;
-  font-display: swap;
-  font-style: normal;
-}
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 400.0;
-*
-* available axes:
-'wght' (range from 100.0 to 800.0
-*/
-@font-face {
-  font-family: 'JetBrainsMono-VariableItalic';
-  src: url('JetBrainsMono-VariableItalic.woff2') format('woff2'),
-       url('JetBrainsMono-VariableItalic.woff') format('woff'),
-       url('JetBrainsMono-VariableItalic.ttf') format('truetype');
-  font-weight: 100 800;
-  font-display: swap;
-  font-style: italic;
-}
-
-/*
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 900.0;
-*
-* available axes:
-'wght' (range from 300.0 to 900.0
-*/
-
-@font-face {
-  font-family: 'Satoshi-Variable';
-  src: url('Satoshi-Variable.woff2') format('woff2'),
-       url('Satoshi-Variable.woff') format('woff'),
-       url('Satoshi-Variable.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: normal;
-}
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 900.0;
-*
-* available axes:
-'wght' (range from 300.0 to 900.0
-*/
-
-@font-face {
-  font-family: 'Satoshi-VariableItalic';
-  src: url('Satoshi-VariableItalic.woff2') format('woff2'),
-       url('Satoshi-VariableItalic.woff') format('woff'),
-       url('Satoshi-VariableItalic.ttf') format('truetype');
-  font-weight: 300 900;
-  font-display: swap;
-  font-style: italic;
-}
-
-
 html{
     background-color:rgb(255, 137, 206)
 }
@@ -177,7 +102,7 @@ header h1 li:first-child{
 }
 
 header h1 li:nth-child(2){
-    background-color: #ee2525;
+    background-color: var(--darkpink);
 }
 
 header h1 li:nth-child(3){
@@ -189,14 +114,9 @@ header h1 li:nth-child(4){
 }
 
 header h1 li:nth-child(5){
-    background-color: #ff10a3;
-}
-
-header h1 li:nth-child(6){
     background-color: #000000;
     color: white;
-    font-size: 120%;
-}
+    font-size: 120%;}
 
 h1 li:first-child,
 h1 li:nth-child(3),
