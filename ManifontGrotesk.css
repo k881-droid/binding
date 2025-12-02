@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Manifont Grotesk';
+    src: url('ManifontGroteskBold.woff2') format('woff2'),
+        url('ManifontGroteskBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manifont Grotesk';
+    src: url('ManifontGroteskBoldItalic.woff2') format('woff2'),
+        url('ManifontGroteskBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manifont Grotesk Book';
+    src: url('ManifontGroteskBookItalic.woff2') format('woff2'),
+        url('ManifontGroteskBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manifont Grotesk Book';
+    src: url('ManifontGroteskBook.woff2') format('woff2'),
+        url('ManifontGroteskBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manifont Grotesk Book Dot';
+    src: url('ManifontGroteskBookDot.woff2') format('woff2'),
+        url('ManifontGroteskBookDot.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

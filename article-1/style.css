@@ -5,22 +5,21 @@ html{
 }
 
 article section p{
-    font-family: "Inter", sans-serif;
+    font-family: 'Manifont Grotesk';
     font-weight: 400;
-    letter-spacing: -0.01rem;
-    line-height: 1.5rem;
-    font-size: 110%;
+    font-size: 130%;
+    line-height: calc(var(--spacing)*1.5);
     padding: var(--spacing);
     text-wrap: wrap;
     box-sizing: border-box;
     background-color: rgb(97, 95, 223);
-    transform: rotate(8deg);
+    /* transform: rotate(8deg); */
     color: white;
 }
 
-.rotate-opposite{
+/* .rotate-opposite{
     transform: rotate(-8deg);
-}
+} */
 
 
 #burst-12 {
