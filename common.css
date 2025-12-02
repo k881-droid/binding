@@ -145,10 +145,45 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Format_1452';
+    src: url('Format_1452.woff2') format('woff2'),
+        url('Format_1452.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Format_1452';
+    src: url('Format_1452.woff2') format('woff2'),
+        url('Format_1452.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heal The Web A';
+    src: url('HealTheWebA-Regular.woff2') format('woff2'),
+        url('HealTheWebA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heal The Web B';
+    src: url('HealTheWebB-Regular.woff2') format('woff2'),
+        url('HealTheWebB-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root{
     font-size: 1rem;
-    font-family: "Instrument Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 	line-height: 2rem;
     letter-spacing: -0.01rem;
 	--spacing: 1rem;

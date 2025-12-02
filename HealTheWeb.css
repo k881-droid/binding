@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Heal The Web A';
+    src: url('HealTheWebA-Regular.woff2') format('woff2'),
+        url('HealTheWebA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heal The Web B';
+    src: url('HealTheWebB-Regular.woff2') format('woff2'),
+        url('HealTheWebB-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
