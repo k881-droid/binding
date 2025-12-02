@@ -174,10 +174,10 @@ article section .last-para-1, .last-para-2{
 text {
   fill: #000000;
   font-family: 'Format_1452';
-  font-weight: 900;
-  font-size: 200%;
   font-weight: 600;
-
+  font-size: 180%;
+  word-spacing: 0.4rem;
+  letter-spacing: -0.04rem;
 }
 
 #curve, #curve2{ 
