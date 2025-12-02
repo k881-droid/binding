@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '';
+    src: url('Boris-Regular.woff2') format('woff2'),
+        url('Boris-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

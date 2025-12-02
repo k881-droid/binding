@@ -181,9 +181,19 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Boris';
+    src: url('Boris-Regular.woff2') format('woff2'),
+        url('Boris-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 :root{
     font-size: 1rem;
-    font-family: "Inter", sans-serif;
+    font-family: 'Manifont Grotesk';
 	line-height: 2rem;
     letter-spacing: -0.01rem;
 	--spacing: 1rem;

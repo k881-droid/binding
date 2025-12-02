@@ -54,9 +54,9 @@ article section p{
     position: relative; 
     background: none;   
     padding-inline: 1rem;
-    font-family: 'Satoshi-Variable';
-    font-size: 130%;  
-    line-height: 1.5em;
+    font-family: 'Heal The Web A';
+    font-size: 150%;  
+    line-height:  calc(var(--spacing)/0.65);
     color: rgb(2, 2, 2);      
     z-index: 2;
     text-align: center;
@@ -69,13 +69,13 @@ article section > p {
     margin-inline: 2rem;
 }
 
-.green{
-    /* background-color: #23900d; */
+/* .green{
+    background-color: #23900d;
 }
 
 .dark-pink{
-    /* background-color: #df0d8e; */
-}
+    background-color: #df0d8e;
+} */
 
 h1 ul{
     display: flex;         
@@ -93,7 +93,7 @@ h1 li {
 	/* border-block: 0.1rem solid firebrick;
 	border-inline: 0.1rem solid firebrick; */
 	padding: 0.5rem;
-    font-family: 'Heal The Web A';
+    font-family: 'Format_1452';
     font-weight: 900;
     font-size: 200%;
     font-weight: 600;
