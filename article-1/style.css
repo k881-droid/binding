@@ -184,8 +184,8 @@ text {
   transform-origin: center;  
   fill: none;
   stroke-width: 3rem;
-  width: 100%;       /* Takes up full width of the container */max-width: 100%;   /* Ensures it doesn't overflow */
-  height: auto;      /* Preserves the aspect ratio */
+  width: 100%;      
+  height: auto;     
   display: block; 
 }
 
