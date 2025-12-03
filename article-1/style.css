@@ -100,7 +100,7 @@ h2:first-child{
 }
 
 .heading-2{
-   margin-inline-start: calc(var(--spacing)*12);
+   margin-inline-start: calc(var(--spacing)*11);
    transform: rotate(8deg);
 }
 
