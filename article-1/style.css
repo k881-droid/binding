@@ -12,7 +12,6 @@ article section p{
     padding: var(--spacing);
     text-wrap: wrap;
     /* background-color: rgb(97, 95, 223); */
-    /* transform: rotate(8deg); */
     color: rgb(32, 32, 32);
 }
 
@@ -82,31 +81,38 @@ h1 li {
     text-align: center;
     justify-content: center;
     padding-block: calc(var(--spacing)*2);
+    padding-inline: var(--spacing);
     border-radius: 4rem;
+    letter-spacing: -0.08rem;
+    word-spacing: 0.8rem;
 }
 
 header h1 li:first-child{
     grid-area: a;
     background-color: var(--green);
-    font-size: 330%;
+    font-size: 320%;
+    transform: rotate(-4deg);
 }
 
 header h1 li:nth-child(2){
     grid-area: b;
     background-color: #ee2525;
     font-size: 300%;
+    transform: rotate(-4deg);
 }
 
 header h1 li:nth-child(3){
     grid-area: c;
     background-color: rgb(97, 95, 223);
     font-size: 300%;
+    transform: rotate(4deg);
 }
 
 header h1 li:nth-child(4){
     grid-area: d;
     background-color: rgb(235, 229, 31);
-    font-size: 330%;
+    font-size: 320%;
+    transform: rotate(4deg);
 }
 
 header h1 li:nth-child(5){
