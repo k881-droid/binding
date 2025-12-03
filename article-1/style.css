@@ -29,15 +29,12 @@ article section p{
 .first-para{
     padding-block-start: 0;
 }
-#burst-12 {
+.burst-12, .burst-13{
   background-color: var(--yellow);
   width: 90%; 
   aspect-ratio: 1;
-  margin-inline-start: calc(var(--spacing)*6);
   margin-block: calc(var(--spacing)*2);
   clip-path: polygon(100% 50%,78.98% 57.76%,93.3% 75%,71.21% 71.21%,75% 93.3%,57.76% 78.98%,50% 100%,42.24% 78.98%,25% 93.3%,28.79% 71.21%,6.7% 75%,21.02% 57.76%,0% 50%,21.02% 42.24%,6.7% 25%,28.79% 28.79%,25% 6.7%,42.24% 21.02%,50% 0%,57.76% 21.02%,75% 6.7%,71.21% 28.79%,93.3% 25%,78.98% 42.24%);
-  position: relative;
-  z-index: 999;
 
   display: flex;               
   align-items: center;         
@@ -47,7 +44,15 @@ article section p{
 
 /* Wanted to style my blockquote in a starburst, learnt how to make it from here: https://css-tricks.com/the-shapes-of-css/ , as well as https://css-generators.com/starburst-shape/ */
 
-#burst-12 blockquote {
+.burst-12{
+margin-inline-start: calc(var(--spacing)*6);
+}
+
+.burst-13{
+margin-inline-end: calc(var(--spacing)*6);
+}
+
+.burst-12 blockquote, .burst-13 blockquote {
     font-family: 'Heal The Web A';
     font-size: 140%;  
     line-height:  calc(var(--spacing)/0.65);
