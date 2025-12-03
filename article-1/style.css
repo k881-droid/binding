@@ -90,28 +90,28 @@ h1 li {
 header h1 li:first-child{
     grid-area: a;
     background-color: var(--green);
-    font-size: 310%;
+    font-size: 270%;
     transform: rotate(-4deg);
 }
 
 header h1 li:nth-child(2){
     grid-area: b;
     background-color: #ee2525;
-    font-size: 290%;
+    font-size: 270%;
     transform: rotate(-4deg);
 }
 
 header h1 li:nth-child(3){
     grid-area: c;
     background-color: rgb(97, 95, 223);
-    font-size: 290%;
+    font-size: 270%;
     transform: rotate(4deg);
 }
 
 header h1 li:nth-child(4){
     grid-area: d;
     background-color: rgb(235, 229, 31);
-    font-size: 310%;
+    font-size: 270%;
     transform: rotate(4deg);
 }
 
