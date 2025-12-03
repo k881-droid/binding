@@ -21,7 +21,7 @@ article section p{
     font-size: 120%;
     line-height: calc(var(--spacing)*1.5);
     padding-inline: var(--spacing);
-    padding-block-end: calc(var(--spacing)*3);
+    padding-block-end: calc(var(--spacing)*4);
     text-wrap: wrap;
     /* background-color: rgb(97, 95, 223); */
     color: var(--black);
