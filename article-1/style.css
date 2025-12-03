@@ -1,7 +1,18 @@
 /* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); */
 
 html{
-    background-color:rgb(246, 162, 255)
+    background-color: var(--white);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.pink-panel{
+    background-color: var(--lightpurple);
+    border-radius: 4rem 4rem 0 0;             
+    padding-block-start: calc(var(--spacing)*8);
+    width: 100vw;
 }
 
 article section p{
@@ -12,66 +23,58 @@ article section p{
     padding: var(--spacing);
     text-wrap: wrap;
     /* background-color: rgb(97, 95, 223); */
-    color: rgb(32, 32, 32);
+    color: var(--black);
 }
 
-
+.first-para{
+    padding-block-start: 0;
+}
 #burst-12 {
-    background: rgb(255, 249, 79);
-    width: 14rem;
-    height: 14rem;
-    position: relative;
-    text-align: center;
-    margin-inline: auto; 
-    margin-block: 6rem;
-    }
-#burst-12:before,
-#burst-12:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 14rem;
-    width: 14rem;
-    background: rgb(255, 249, 79);
-    }
-#burst-12:before {
-    transform: rotate(30deg);
-    }
-#burst-12:after {
-    transform: rotate(60deg);
-    }
+  background-color: var(--yellow);
+  width: 90%; 
+  aspect-ratio: 1;
+  margin-inline-start: calc(var(--spacing)*6);
+  margin-block: calc(var(--spacing)*2);
+  clip-path: polygon(100% 50%,78.98% 57.76%,93.3% 75%,71.21% 71.21%,75% 93.3%,57.76% 78.98%,50% 100%,42.24% 78.98%,25% 93.3%,28.79% 71.21%,6.7% 75%,21.02% 57.76%,0% 50%,21.02% 42.24%,6.7% 25%,28.79% 28.79%,25% 6.7%,42.24% 21.02%,50% 0%,57.76% 21.02%,75% 6.7%,71.21% 28.79%,93.3% 25%,78.98% 42.24%);
+  position: relative;
+  z-index: 999;
 
-/* Wanted to style my blockquote in a starburst, learnt how to make it from here: https://css-tricks.com/the-shapes-of-css/ */
+  display: flex;               
+  align-items: center;         
+  justify-content: center;    
+  padding: var(--spacing);
+}
+
+/* Wanted to style my blockquote in a starburst, learnt how to make it from here: https://css-tricks.com/the-shapes-of-css/ , as well as https://css-generators.com/starburst-shape/ */
 
 #burst-12 blockquote {
-    position: relative; 
-    background: none;   
-    padding-inline: 1rem;
     font-family: 'Heal The Web A';
-    font-size: 150%;  
+    font-size: 140%;  
     line-height:  calc(var(--spacing)/0.65);
-    color: rgb(2, 2, 2);      
-    z-index: 2;
+    color: var(--black);      
     text-align: center;
-    padding-block: 1.5rem;
     text-transform: uppercase;
+
+
+    margin: 0;                 
+    max-width: 50%;   
 }
 
-/* article section > p {
-    margin-block: 2.5rem; 
-    margin-inline: 2rem;
-} */
+article section > p {
+    /* margin-block: 2.5rem;  */
+    margin-inline: var(--spacing);
+}
 
 h1 ul{
     display: grid;         
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
 		"a a a"
 		"b c c"
 		"d d d"
         "e e e";
+    background-color: white;
 }
 
 h1 li {
@@ -105,7 +108,7 @@ header h1 li:nth-child(3){
     grid-area: c;
     background-color: rgb(97, 95, 223);
     font-size: 270%;
-    transform: rotate(4deg);
+    transform: rotate(2deg);
 }
 
 header h1 li:nth-child(4){
@@ -120,6 +123,27 @@ header h1 li:nth-child(5){
     background-color: #ff10a3;
 }
 
+.space{
+    padding-block-start: calc(var(--spacing)*4);
+}
+
+h2{
+    padding-block: var(--spacing);
+    font-family: 'Format_1452';
+    font-size: 200%;
+    transform: rotate(-8deg);
+    border-radius: 4rem;
+    max-inline-size: 50vw;
+    text-align: center;
+    margin-inline-start: calc(var(--spacing)*2);
+    margin-block-start: calc(var(--spacing)*6);
+    margin-block-end: calc(var(--spacing)/2);
+    background-color: white;
+}
+
+h2:first-child{
+    margin-block-start:0;
+}
 
 /* .circle-1, .circle-2, .circle-3{
   width: 15rem;
@@ -152,3 +176,4 @@ header h1 li:nth-child(5){
 article section .last-para-1, .last-para-2{
     margin-block-end: 8rem;
 } */
+

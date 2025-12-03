@@ -198,11 +198,12 @@
     letter-spacing: -0.01rem;
 	--spacing: 1rem;
     --lightpink: rgb(255, 137, 206);
+    --lightpurple: rgb(246, 162, 255);
     --darkpink: #ff10a3;
     --purple: rgb(97, 95, 223);
     --red: #ee2525;
     --green: #23900d;
-    --yellow: rgb(235, 229, 31);
+    --yellow: rgb(255, 248, 52);
     --black: #0c0c0c;
     --white: white;
 
