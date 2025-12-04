@@ -117,16 +117,27 @@ article.scalloped{
 h2{
     font-family: 'Format_1452';
     font-size: 200%;
-    border-radius: 0.5rem;
-    max-inline-size: 20vw;
     text-align: center;
     margin-block-end: calc(var(--spacing)*2);
-        /* text-transform: uppercase; */
 }
 
 h2:first-child{
-    padding-block-start: calc(var(--spacing)*6);
+    padding-block-start: calc(var(--spacing)*8);
 }
+
+h2 div{
+    background-color: var(--white);
+    width: 9rem;            
+    height: 9rem;    
+    border-radius: 50%;      
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding: 0;              
+    transform: rotate(-8deg);
+    margin-inline-start: 55%;     
+}
+
 
 h1 ul{
     display: grid;         
