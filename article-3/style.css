@@ -113,6 +113,23 @@ article.scalloped{
     max-width: 50%;   
 }
 
+.burst-14{
+    background-color: var(--yellow);
+   --r: 2rem; /* radius of circles */
+  height: 30rem;
+  width: 70%;
+  padding: calc(1.5*var(--r));
+    mask: 
+    linear-gradient(#000 0 0) no-repeat
+     50%/calc(100% - 2*var(--r)) calc(100% - 2*var(--r)), 
+    radial-gradient(farthest-side,#000 97%,#0000) 
+     0 0/calc(2*var(--r)) calc(2*var(--r)) round;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline:auto;
+}
+
 h2{
     font-family: 'Format_1452';
     font-size: 200%;
