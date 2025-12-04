@@ -79,106 +79,71 @@ article section > p {
 
 h1 ul{
     display: grid;         
-    /* background-color: rgb(0, 0, 0); */
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
-		"a a a"
-		"b c c"
-		"d c c"
-        "d e e";
+		"a b c"
+		"d e f"
+		"g h i";
     background-color: var(--white);
+    aspect-ratio: 1;
 }
 
 h1 li {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
     font-family: 'Format_1452';
-    padding-block: calc(var(--spacing)*2);
-    padding-inline: var(--spacing);
+    text-align: center;
+    border-radius: 100%;
     letter-spacing: -0.08rem;
     word-spacing: 0.8rem;
+    aspect-ratio: 1;
 }
 
 header h1 li:first-child{
     grid-area: a;
-    font-size: 270%;
-    --r:1rem; 
-    width: 15rem;
-     aspect-ratio: 1;
-    border-top-left-radius: var(--r);
-     clip-path: polygon(0 100%,100% 0,0 0);
-    --_g:calc(50%*(1 + 1/tan(22.5deg)) - var(--r)/(3*sqrt(2) - 4));
-    --_r:calc(var(--r)/tan(22.5deg)),#000 98%,#0000 101%;
-    -webkit-mask:
-    radial-gradient(var(--r) at top  var(--r) right  var(--_r)),
-    radial-gradient(var(--r) at left var(--r) bottom var(--_r)),
-    conic-gradient(from -67.5deg at var(--_g) var(--_g),#000 45deg,#0000 0);
     background-color: var(--green);
-    transform: rotate(8deg);
-    margin-inline-start: var(--spacing);
-    margin-block-start: var(--spacing);
-}
-
-header h1 li:first-child span {
-    display: inline-block;
-    /* transform: rotate(-60deg);     */
-    
 }
 
 header h1 li:nth-child(2){
     grid-area: b;
-    background-color: var(--red);
-    font-size: 270%;
+    background-color: var(--darkpink);
 }
 
 header h1 li:nth-child(3){
     grid-area: c;
     background-color: var(--purple);
-    font-size: 270%;
 }
 
 header h1 li:nth-child(4){
     grid-area: d;
-    background-color: var(--yellow);
-    font-size: 270%;
+    background-color: var(--darkpink);
 }
 
 header h1 li:nth-child(5){
     grid-area: e;
-    background-color: #ff10a3;
-    font-size: 270%;
+    background-color: var(--purple)
 }
 
-
-/* .circle-1, .circle-2, .circle-3{
-  width: 15rem;
-  height: 6rem;
-  line-height: 6rem;
-  border-radius: 50%;
-  font-size: 150%;
-  font-weight: 500;
-  color: #000000;
-  text-align: center;
-  background-color: #ffffff;
-  margin-inline-start:1rem;
-  transform: rotate(-10deg);
-  margin-block-start: 5rem;
-  margin-block-end: -2rem;
-  position: relative;  
-  z-index: 9999;
+header h1 li:nth-child(6){
+    grid-area: f;
+    background-color: var(--green)
 }
 
-/* Wanted to recreate the 'sticker' feel in this so found out how to add circles with text from: https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle */
-
-/* .circle-2{
-    transform: rotate(10deg);
-    margin-inline-start: 10rem;
+header h1 li:nth-child(7){
+    grid-area: g;
+    background-color: var(--green)
 }
 
-.circle-3{
-    margin-block-end: -4rem;
+header h1 li:nth-child(8){
+    grid-area: h;
+    background-color: var(--purple)
 }
 
-article section .last-para-1, .last-para-2{
-    margin-block-end: 8rem;
-}  */
+header h1 li:nth-child(9){
+    grid-area: i;
+    background-color: var(--yellow)
+}
+
 
