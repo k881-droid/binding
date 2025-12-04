@@ -103,7 +103,7 @@ article.scalloped{
   transform: rotate(-8deg);
 }
 
-.burst-12 blockquote, .burst-13 blockquote {
+.burst-12 blockquote, .burst-13 blockquote{
     font-family: 'Heal The Web A';
     font-size: 140%;  
     line-height:  calc(var(--spacing)/0.65);
@@ -116,7 +116,7 @@ article.scalloped{
 .burst-14{
     background-color: var(--yellow);
    --r: 2rem; /* radius of circles */
-  height: 30rem;
+  height: auto;
   width: 70%;
   padding: calc(1.5*var(--r));
     mask: 
@@ -129,12 +129,27 @@ article.scalloped{
     justify-content: center;
     margin-inline:auto;
 }
+/* 
+Article had a data set hence regular scalloped circle/ flower shape would not work, needed to introduce a scalloped box shape instead to fit longer data. Learnt how to create one from here: https://css-shape.com/scalloped-box/ */
+
+.burst-14 ul{
+    font-family: 'Heal The Web A';
+    font-size: 140%;  
+    line-height:  calc(var(--spacing)/0.65);
+    color: var(--black);      
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+.burst-14 ul li{
+    padding-block: var(--spacing);
+}
 
 h2{
     font-family: 'Format_1452';
     font-size: 200%;
     text-align: center;
-    margin-block-end: calc(var(--spacing)*2);
+    margin-block-end: calc(var(--spacing)*3);
 }
 
 h2:first-child{
@@ -149,10 +164,18 @@ h2 div{
     display: flex;
     align-items: center;
     justify-content: center;  
-    padding: 0;              
-    margin-inline-start: 55%;     
+    padding: 0;                
 }
 
+.heading-1, .heading-3, .heading-5{
+    margin-inline-start: 60%;
+    transform: rotate(8deg);
+}
+
+.heading-2, .heading-4, .heading-6{
+    margin-inline-start: 5%;
+    transform: rotate(-8deg);
+}
 
 h1 ul{
     display: grid;         
